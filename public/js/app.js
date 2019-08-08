@@ -7,7 +7,7 @@ weatherForm.addEventListener('submit', function (ev) {
   ev.preventDefault();
   const locationValue = weatherInput.value;
   weatherResult.textContent = 'Loading...';
-  fetch(`http://localhost:2323/api/weather?address=${locationValue}`)
+  fetch(`/api/weather?address=${locationValue}`)
     .then((res) => {
       return res.json();
     })
