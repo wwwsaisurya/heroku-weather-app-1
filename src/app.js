@@ -54,7 +54,6 @@ app.get('/api/weather', (req, res) => {
 });
 
 // Route for 404 page. * means match anything that hasn't been matched so far.
-// Need to come last.
 app.get('*', (req, res) => {
   res.render('404', {
     title: '404 Not Found',
