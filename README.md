@@ -9,3 +9,5 @@ The whole idea of the app is taken from ["The Complete Node.js Developer Course"
 
 ## Server start (dev, nodemon)
 > npm run dev
+
+## [Heroku](https://myweathapp.herokuapp.com/)
